@@ -1,3 +1,4 @@
+```
 PROGRAM PLC_PRG
 VAR 
 	Reset : BOOL := FALSE;
@@ -16,7 +17,8 @@ VAR
 	fbShape2 : Shape2;
 	fbStartCon : Start;
 END_VAR
-
+```
+```
 // ST - 8 lines
 // LD - 8 lines
 // FBD - 8 lines
@@ -208,3 +210,4 @@ CASE GVL.State OF
 			GVL.State := 0;
 		END_IF
 END_CASE
+```
